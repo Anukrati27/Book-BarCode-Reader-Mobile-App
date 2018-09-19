@@ -1,0 +1,1000 @@
+  991  docker pull tomcat:latest
+  992  cd ..
+  993  ll
+  994  cp temp/
+  995  ll
+  996  cd temp/
+  997  ll
+  998  rm -rf a/
+  999  ll
+ 1000  mkdir a
+ 1001  tar -C a/ -xvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1002  sudo tar -C a/ -xvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1003  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar a.tar
+ 1004  ll
+ 1005  tar -C a/ -xvf a.tar 
+ 1006  ll
+ 1007  cd a/
+ 1008  ll
+ 1009  cd 0d9c080cd392b06768cdb6b083f0a0fa6879b08628d65c5059e4faf1f1ca98f9/
+ 1010  LL
+ 1011  ll
+ 1012  cd ..
+ 1013  ll
+ 1014  pwd
+ 1015  cd /tmp/docket/tmp/docket/a/abcd/
+ 1016  pwd
+ 1017  ll
+ 1018  vi repositor
+ 1019  vi repository
+ 1020  bcompare
+ 1021  cd /var/local/docket/
+ 1022  ll
+ 1023  rm -rf *
+ 1024  ll
+ 1025  tar -xvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar .
+ 1026  tar -C . -xvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1027  cp sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar a.tar
+ 1028  ll
+ 1029  tar -C . -xvf a.tar 
+ 1030  ll
+ 1031  mkdir temp
+ 1032  mv 0d9c080cd392b06768cdb6b083f0a0fa6879b08628d65c5059e4faf1f1ca98f9/ temp/
+ 1033  mv 3de671076e7ac1c866ed4927440cebdac0980575cf7c472f61054ecede94fe08/ temp/
+ 1034  mv 6075f6b0faafdb796bbab803c222de0415caa2e69a419e4dd4687e35d8ba816e/ temp/
+ 1035  mv 7ff052278201c7a754bcd1f8711f3b9e5dffaf7bc506651072bab477cff455d8/ temp/
+ 1036  mv 9ccab0a7180c0053dce315b38207eefcef3df2ae1ea38a35b87cb9977a30f324/ temp
+ 1037  mv b7fbf2bdecfea65575c8547f85dfb3b1a8b8438d19816942777bd7e9945cc191/ temp/
+ 1038  mv c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739/ temp/
+ 1039  mv c2b5a3772215ab78b633b2f5f7458bf949b9085af8b5f02f154a5249eafa8080/ temp/
+ 1040  mv e63291b2c704ccb7981d12f4f4d0f48e76f2fc2f8fa1b4831129898818ffdbbd/ temp/
+ 1041  mv f57abb9d3c83b867f58176e1302bdf910f715a7cacb9f99d135571383046c71e/ temp/
+ 1042  mv f64f52d8016effcc6cbfea4d16a0bfe803b71891d7ad0a7f56b0edfed1ab3bfe/ temp/
+ 1043  mv fb6c43de63baf57033785ea0d9e90e5a56d6b1132d4cf22cfac357a21e0c30c8/ temp/
+ 1044  ll
+ 1045  mv manifest.json temp/
+ 1046  mv repositories temp/
+ 1047  mv 9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91.json temp/
+ 1048  bcompare
+ 1049  rm -rf *
+ 1050  ll
+ 1051  cd test1/
+ 1052  ll
+ 1053  cd f497f27c102a0eaafc5fcd68fdc40abcba1f2df03998da37987d3204512370c0/
+ 1054  ll
+ 1055  vi repositories
+ 1056  cd ..
+ 1057  ll
+ 1058  cd test1/
+ 1059  ll
+ 1060  vi repositories 
+ 1061  cd ..
+ 1062  rm -rf *
+ 1063  ll
+ 1064  cd test1/
+ 1065  ll
+ 1066  cd /tmp/docket
+ 1067  cd /var/local/docket/
+ 1068  ll
+ 1069  rm -rf *
+ 1070  ll
+ 1071  cd /tmp/docket/
+ 1072  ll
+ 1073  cd ..
+ 1074  cd docket/
+ 1075  rm -rf *
+ 1076  ll
+ 1077  cd ../docket/
+ 1078  ll
+ 1079  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1080  ll
+ 1081  cd ..
+ 1082  rm -rf *
+ 1083  ll
+ 1084  docker load 9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1085  docker load sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1086  ll
+ 1087  chmod 777 9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1088  chmod 777 sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1089  docker load sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1090  docker load -i sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1091  rm -rf *
+ 1092  docker load < sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1093  cd -
+ 1094  cd /var/local/docket
+ 1095  ll
+ 1096  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1097  docker rmi tomcat:latest
+ 1098  cd -
+ 1099  ll
+ 1100  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1101  docker image load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1102  docker image import -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1103  docker image import sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1104  docker image load sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1105  docker image import sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1106  ll
+ 1107  mkdir temp
+ 1108  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91 temp/
+ 1109  cd temp/
+ 1110  ll
+ 1111  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/ ../
+ 1112  ll
+ 1113  mv ../sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar .
+ 1114  ll
+ 1115  docker image import sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1116  ll
+ 1117  docker image
+ 1118  docker images
+ 1119  docker rmi d6175b777d0d
+ 1120  docker rmi 03cc05722693
+ 1121  docker rmi 1084930d9b81
+ 1122  docker images
+ 1123  docker image import sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1124  docker images
+ 1125  docker push tomcat:latest
+ 1126  docker image load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1127  ll
+ 1128  tar cvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar image/
+ 1129  mkdir tem
+ 1130  tar cvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar temp/
+ 1131  tar zxvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar temp/
+ 1132  tar xvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar temp/
+ 1133  ll
+ 1134  tar --help
+ 1135  cd ..
+ 1136  ll
+ 1137  rm -rf *
+ 1138  ll
+ 1139  mkdir temp
+ 1140  cd temp/
+ 1141  mv ../sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91 .
+ 1142  rm -rf *
+ 1143  ll
+ 1144  cp ../sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar .
+ 1145  ll
+ 1146  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1147  chmod 777 *
+ 1148  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1149  chmod 777 * ../../docket/
+ 1150  ll
+ 1151  cd ..
+ 1152  ll
+ 1153  cd tmp/
+ 1154  ll
+ 1155  cd docket/
+ 1156  ll
+ 1157  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1158  ll
+ 1159  cd ..
+ 1160  ll
+ 1161  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1162  ll
+ 1163  cd ..
+ 1164  ll
+ 1165  tar -zcvf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91.tar sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1166  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/ abcd
+ 1167  ll
+ 1168  tar -zcvf abcd/ abcd.tar
+ 1169  ll
+ 1170  tar -zcvf abcd.tar abcd/
+ 1171  ll
+ 1172  docker load -i abcd
+ 1173  docker load -i abcd.tar 
+ 1174  mkdir a
+ 1175  tar -C a/ -xvf abcd.tar 
+ 1176  ll
+ 1177  cd a
+ 1178  ll
+ 1179  cd abcd/
+ 1180  ll
+ 1181  cd ../..
+ 1182  ll
+ 1183  rm -rf a/ abcd/
+ 1184  docker load -i abcd.tar 
+ 1185  ll
+ 1186  tar -C a/ -xvf abcd.tar 
+ 1187  mkdir a
+ 1188  tar -C a/ -xvf abcd.tar 
+ 1189  cd a/
+ 1190  ll
+ 1191  cd abcd/
+ 1192  ll
+ 1193  cd 0d9c080cd392b06768cdb6b083f0a0fa6879b08628d65c5059e4faf1f1ca98f9/
+ 1194  ll
+ 1195  cd ..
+ 1196  ll
+ 1197  docker load -i abcd.tar 
+ 1198  cd /boot/
+ 1199  ll
+ 1200  cd -
+ 1201  docker images
+ 1202  docker rmi 0aacdd79468a
+ 1203  docker rmi 9b259c842857
+ 1204  docker rmi 9f1191b287da
+ 1205  cat abcd.tar | docker import - tomcat:latest
+ 1206  docket pull tomcat:latest
+ 1207  docker pull tomcat:latest
+ 1208  bcompare
+ 1209  ll
+ 1210  rm abcd.tar 
+ 1211  cd a/
+ 1212  ll
+ 1213  cd abcd/
+ 1214  ll
+ 1215  cp /var/local/docket/temp/a/repositories .
+ 1216  ll
+ 1217  vi repositor
+ 1218  vi repository
+ 1219  cd ..
+ 1220  ll
+ 1221  tar -zcvf abcd.tar abcd/
+ 1222  ll
+ 1223  docker load abcd.tar
+ 1224  docker load -i abcd.tar
+ 1225  pwd
+ 1226  cd abcd/
+ 1227  ll
+ 1228  pwd
+ 1229  cd /var/local/docket/temp/a/
+ 1230  pwd
+ 1231  cd ../..
+ 1232  ll
+ 1233  rm -rf *
+ 1234  cd /tmp/docket/
+ 1235  ll
+ 1236  rm -rf *
+ 1237  ll
+ 1238  rm -rf *
+ 1239  ll
+ 1240  rm -rf *
+ 1241  ll
+ 1242  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1243  ll
+ 1244  vi repository 
+ 1245  cd ..
+ 1246  ll
+ 1247  mkdir temp
+ 1248  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar temp/
+ 1249  cd temp/
+ 1250  ll
+ 1251  chmod 777 -R ../../docket/
+ 1252  ll
+ 1253  cd tmp/
+ 1254  ll
+ 1255  cd docket/
+ 1256  ll
+ 1257  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1258  ll
+ 1259  cd ..
+ 1260  pwd
+ 1261  ll
+ 1262  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1263  pwd
+ 1264  cd ..
+ 1265  mkdir a
+ 1266  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/ a/
+ 1267  cd a
+ 1268  pwd
+ 1269  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1270  ll
+ 1271  cd ..
+ 1272  ll
+ 1273  mv sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/* .
+ 1274  ll
+ 1275  rm sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1276  rm -rf sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1277  ll
+ 1278  pwd
+ 1279  ll
+ 1280  mv repository repositories
+ 1281  ll
+ 1282  cd ..
+ 1283  ll
+ 1284  tar -zcvf a/ a.tar
+ 1285  tar -zcvf a.tar a/
+ 1286  ll
+ 1287  docker load a.tar
+ 1288  docker load -i a.tar
+ 1289  ll
+ 1290  cd a/
+ 1291  ll
+ 1292  cd ..
+ 1293  docker load < a.tar
+ 1294  ll
+ 1295  chmod 777 -R *
+ 1296  ll
+ 1297  docker load < a.tar
+ 1298  sudo apt-get remove docker-engine
+ 1299  sudo apt-cache showpkg docker-engine
+ 1300  sudo apt-get install docker-engine=1.9.1-0~jessie
+ 1301  sudo apt-get remove docker-engine
+ 1302  sudo apt-cache showpkg docker-engine
+ 1303  sudo apt-get install docker-engine=1.13.1-0~debian-jessie
+ 1304  cd ..
+ 1305  pwd
+ 1306  cd ..
+ 1307  rm -rf *\
+ 1308  rm -rf *
+ 1309  ll
+ 1310  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1311  ll
+ 1312  cd ..
+ 1313  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1314  ll
+ 1315  mv repository repositories
+ 1316  ll
+ 1317  cd ..
+ 1318  ll
+ 1319  sudo tar -zcvf /tmp/docket/sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91
+ 1320  ll
+ 1321  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1322  rm -rf *
+ 1323  ll
+ 1324  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91
+ 1325  docker load -i sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar 
+ 1326  cd sha256\:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91/
+ 1327  ll
+ 1328  cd ..
+ 1329  ll
+ 1330  zcat sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar | sudo docker import - tomcat:latest
+ 1331  docker images
+ 1332  docker pull tomcat:latest
+ 1333  docker rmi tomcat:latest
+ 1334  sudo docker import - tomcat:latest sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1335  docker load < sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1336  zcat sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar | sudo docker load
+ 1337  sudo apt-get remove docker-engine
+ 1338  sudo apt-cache showpkg docker-engine
+ 1339  sudo apt-get install docker-engine=1.9.1-0~jessie
+ 1340  ll
+ 1341  rm -rf *
+ 1342  docker images
+ 1343  ll
+ 1344  rm -rf *
+ 1345  docker images
+ 1346  docker pull tomcat:latest
+ 1347  docker rmi tomcat:latest
+ 1348  sudo apt-get remove docker-engine
+ 1349  sudo apt-get install docker-engine
+ 1350  ll
+ 1351  cd da6e504677d4035daf7303bd17ee60f26f8916eeb3fd1183988e2d23dd39aa42/
+ 1352  ll
+ 1353  docker --help
+ 1354  cd ..
+ 1355  ll
+ 1356  cat da6e504677d4035daf7303bd17ee60f26f8916eeb3fd1183988e2d23dd39aa42_tomcat_latest.tar | sudo docker import - tomcat:latest
+ 1357  cd /home/ashish/docket/registry/
+ 1358  export GOPATH=/home/ashish/docket/registry/
+ 1359  go build -o bt
+ 1360  ./bt 
+ 1361  go build -o bt
+ 1362  ./bt 
+ 1363  go build -o bt
+ 1364  ./bt 
+ 1365  go build -o bt
+ 1366  ./bt 
+ 1367  go build -o bt
+ 1368  ./bt 
+ 1369  export GOPATH=/home/ashish/docket/client/
+ 1370  go build -o client
+ 1371  cd /home/ashish/docket/client/
+ 1372  go build -o client
+ 1373  docker images
+ 1374  docker rmi d6b6c6bc5886  a92cd9f41b4a  c63d4cede7a7  d16ddd86742a 4b9889187fba ce94efa93e1d
+ 1375  docker images
+ 1376  ./client push tomcat:latest
+ 1377  ./client pull tomcat:latest
+ 1378  docker images
+ 1379  docker rmi tomcat:latest
+ 1380  go build -o client
+ 1381  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1382  docker --help
+ 1383  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1384  go build -o client
+ 1385  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1386  go build -o client
+ 1387  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1388  ./client push tomcat:latest
+ 1389  docker images
+ 1390  docker rmi ba522335fd80
+ 1391  ./client pull tomcat:latest
+ 1392  docker pull tomcat:latest
+ 1393  ./client push tomcat:latest
+ 1394  ./client pull tomcat:latest
+ 1395  go build -o client
+ 1396  ./client push tomcat:latest
+ 1397  docker pull tomcat:latest
+ 1398  ./client push tomcat:latest
+ 1399  ./client pull tomcat:latest
+ 1400  go build -o client
+ 1401  ./client pull tomcat:latest
+ 1402  go build -o client
+ 1403  zcat
+ 1404  go build -o client
+ 1405  ./client push tomcat:latest
+ 1406  ./client pull tomcat:latest
+ 1407  docker images
+ 1408  docker rmi
+ 1409  docker rmi da6e504677d4
+ 1410  ./client pull tomcat:latest
+ 1411  ./client push tomcat:latest
+ 1412  ./client pull tomcat:latest
+ 1413  BBBBB
+ 1414  go build -o client
+ 1415  docker images
+ 1416  docker rmi 454a543e9ddf
+ 1417  ./client push tomcat:latest
+ 1418  cd /home/ashish/docket/client/opentracker/
+ 1419  ./opentracker -i 0.0.0.0 -p 8940 
+ 1420  ps -ef | grep opentracker
+ 1421  ps -ef 
+ 1422  ps -ef | grep ctorrent
+ 1423  kill -9 ctorrent
+ 1424  ps -ef | grep ctorrent | kill -9 {1}
+ 1425  ps -ef | grep ctorrent | kill -9 ${1}
+ 1426  ps -ef | grep ctorrent | kill -9 $1
+ 1427  kill -9 ctorrent -e *
+ 1428  ps -ef | grep ctorrent
+ 1429  kill -9 ctorrent -d -e *
+ 1430  ps -ef | grep ctorrent
+ 1431  kill -9 ctorrent -d -e 9999 *
+ 1432  ps -ef | grep ctorrent
+ 1433  kill -9 | ps -ef | grep ctorrent
+ 1434  ps -ef | grep ctorrent
+ 1435  kill -9 | ps -ef | grep ctorren
+ 1436  ps -ef | grep ctorrent | kill -l
+ 1437  pidof ctorrent
+ 1438  kill -9 | pidof ctorrent
+ 1439  kill -9 22529 22522 22509 22496 22483 22461 22447 22434 22421 22408 22395 22382 22369 22356 22343 22330 22317 22304 22291 22278 22265 22252 22239 22226 22213 22200 22187 22174 22161 22148 22135 22122 22109 22096 20622 20615 20602 20589 20576 20560 20547 20534 20521 20508 20495 20482 20469 20456 20443 20430 20417 20404 20391 20378 20365 20352 20339 20326 20313 20300 20287 20274 20259 20246 20233 20220 20207 20194 16941 16933 16920 16907 16894 16881 16866 16853 16839 16826 16813 16800 16784 10322 10311 10298 10285 10272 10259 10246 10233 10220 10207 10193 10178 10165 9819 9809 3788 3781 3768 3755 3742 3729 3716 3703 3689 3676 3663 3650 3637
+ 1440  pidof ctorrent
+ 1441  ./opentracker -i 0.0.0.0 -p 8940 
+ 1442  cd /home/ashish/docket/client/opentracker/
+ 1443  ./opentracker -i 0.0.0.0 -p 8940 
+ 1444  pidof ctorrent
+ 1445  kill -9 3999 3977 3964 3951 3938 3919 3906 3893 3880 3867 3854 3841 3828 3815 3802 3788 3775 3762 3749 3736 3723 3710 3697 3684 3671 3658 3645 3632 3619 3606 3593 3580 3566 3553
+ 1446  ./opentracker -i 0.0.0.0 -p 8940 
+ 1447  pidof ctorrent
+ 1448  kill -9 8277 8266 4736 4730 4369 4358 4345 4332 4319 4306 4293 4280 4267 4254 4241 4228 4215
+ 1449  ./opentracker -i 0.0.0.0 -p 8940 
+ 1450  pidof ctorrent
+ 1451  ./opentracker -i 0.0.0.0 -p 8940 
+ 1452  pidof ctorrent
+ 1453  kill -9 8764 8755 8742 8729 8716 8703 8690 8677 8662 8649 8636 8623 8610 8497
+ 1454  ./opentracker -i 0.0.0.0 -p 8940 
+ 1455  pidof ctorrent
+ 1456  ./opentracker -i 0.0.0.0 -p 8940 
+ 1457  pidof ctorrent
+ 1458  kill -9 10192 10182 10169 10156 10143 10130 10117 10104 10090 10077 10064 10051 10038
+ 1459  ps -ef | ctorrent
+ 1460  ps -ef | grep ctorrent
+ 1461  ps -ef
+ 1462  kill -9 10884
+ 1463  ps -ef
+ 1464  cd /home/ashish/docket/registry/
+ 1465  export GOPATH=/home/ashish/docket/registry/
+ 1466  go build -o bt
+ 1467  ./bt 
+ 1468  go build -o bt
+ 1469  ./bt 
+ 1470  go build -o bt
+ 1471  ./bt 
+ 1472  go build -o bt
+ 1473  ./bt 
+ 1474  go build -o bt
+ 1475  ./bt 
+ 1476  go build -o bt
+ 1477  ./bt 
+ 1478  cd /home/ashish/docket/client/
+ 1479  export GOPATH=/home/ashish/docket/client/
+ 1480  go build -o client
+ 1481  docker images
+ 1482  ./client push tomcat:latest
+ 1483  ./client pull tomcat:latest
+ 1484  docker images
+ 1485  ./client push tomcat:latest
+ 1486  ./client pull tomcat:latest
+ 1487  docker images
+ 1488  undocker
+ 1489  sudo apt-get undocker
+ 1490  pip install git+https://github.com/larsks/undocker/ 
+ 1491  go build -o client
+ 1492  ./client push tomcat:latest
+ 1493  ./client pull tomcat:latest
+ 1494  docker images
+ 1495  docker rmi c1ea39644ae2 9f1191b287da
+ 1496  docker images
+ 1497  go build -o client
+ 1498  ./client pull tomcat:latest
+ 1499  docker image
+ 1500  docker images
+ 1501  go build -o client
+ 1502  ./client images
+ 1503  ./client push tomcat:latest
+ 1504  go build -o client
+ 1505  ./client push tomcat:latest
+ 1506  ./client pull tomcat:latest
+ 1507  docker images
+ 1508  cd /var/local/docket/
+ 1509  ll
+ 1510  cd temp/
+ 1511  ll
+ 1512  git clone https://github.com/larsks/undocker.git
+ 1513  ll
+ 1514  cd undocker/
+ 1515  ll
+ 1516  python setup.py build
+ 1517  python setup.py install
+ 1518  cd ..
+ 1519  undocker -i -o sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1520  docker save tomcat | undocker -i -o tomcat tomcat 
+ 1521  ll
+ 1522  cd undocker/
+ 1523  ll
+ 1524  cd build/
+ 1525  ll
+ 1526  cd lib.linux-x86_64-2.7/
+ 1527  ll
+ 1528  cd ../bdist.linux-x86_64/
+ 1529  ll
+ 1530  cd ../..
+ 1531  kk
+ 1532  ll
+ 1533  cd dist/
+ 1534  ll
+ 1535  cd ..
+ 1536  vi README.md 
+ 1537  find / -name undocker
+ 1538  mv /usr/local/bin/undocker /usr/local/bin/undocker_bk
+ 1539  python setup.py buil
+ 1540  python setup.py install
+ 1541  cd ../
+ 1542  ll
+ 1543  undocker -i -o sha256:9f1191b287daabaaaba064c9675bca794db7a169e54372c3e0ae04f71a055c91_tomcat_latest.tar
+ 1544  docker save tomcat:latest | undocker --list
+ 1545  docker save tomcat:latest | undocker -i -o tomcat:latest
+ 1546  ll
+ 1547  cd tomcat\:latest/
+ 1548  ll
+ 1549  cd ..
+ 1550  ll
+ 1551  cd tomcat\:latest/
+ 1552  ll
+ 1553  cd ..
+ 1554  ll
+ 1555  rm -rf temp/
+ 1556  cd /home/ashish/docker
+ 1557  grep -ir "tar " *
+ 1558  grep -ir "tar -" *
+ 1559  cd /tmp/docket/
+ 1560  ll
+ 1561  cd ..
+ 1562  cd docket/
+ 1563  ll
+ 1564  cd cd /var/local/docket/
+ 1565  ll
+ 1566  cd docket-registry/
+ 1567  ll
+ 1568  cd ../docket
+ 1569  cd /var/local/docket
+ 1570  ll
+ 1571  rm b7fbf2bdecfea65575c8547f85dfb3b1a8b8438d19816942777bd7e9945cc191.tar.torrent
+ 1572  cd /home/ashish/docket/client/opentracker/
+ 1573  ./opentracker -i 0.0.0.0 -p 8940 
+ 1574  ps -ef|grep opentracker
+ 1575  cd /home/ashish/docker
+ 1576  cd registry/
+ 1577  ./bt
+ 1578  ll
+ 1579  cd ../../docket/registry/
+ 1580  ./bt
+ 1581  cd /home/ashish/docket/client/
+ 1582  docker images
+ 1583  ./client push tomcat:latest
+ 1584  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1585  d /home/ashish/docker
+ 1586  cd registry/
+ 1587  ./bt
+ 1588  ll
+ 1589  cd ../../docket/registry/
+ 1590  ./bt
+ 1591  ll
+ 1592  cd /home/ashish/docket/client/opentracker/
+ 1593  ./opentracker -i 0.0.0.0 -p 8940 
+ 1594  cd /home/ashish/docket/registry/
+ 1595  ./bt
+ 1596  cd /home/ashish/docket/client/
+ 1597  date +"%T" && ./client push tomcat:latest &&  date +"%T"
+ 1598  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1599  esit
+ 1600  exit
+ 1601  exit
+ 1602  exit
+ 1603  cd /var/local/docket/
+ 1604  ll
+ 1605  rm -rf *
+ 1606  ctorrent
+ 1607  cd /home/ashish/quayctl/
+ 1608  cd src/github.com/coreos/quayctl/
+ 1609  grep -ir "ctorrent" *
+ 1610  cd /tmp/docket/
+ 1611  ll
+ 1612  rm -rf *
+ 1613  ll
+ 1614  rm -rf *
+ 1615  cd /var/local/docket/
+ 1616  ll
+ 1617  rm -rf *
+ 1618  cd /tmp/docket/
+ 1619  ll
+ 1620  rm -rf *
+ 1621  cd -
+ 1622  rm -rf *
+ 1623  cd -
+ 1624  ll
+ 1625  docker rmi tomcat:latest
+ 1626  ll
+ 1627  cd -
+ 1628  ll
+ 1629  docker rmi tomcat:latest
+ 1630  rm c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739.tar.torrent
+ 1631  docker rmi tomcat:latest
+ 1632  mv /tmp/docket/c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739.tar.torrent .
+ 1633  ll
+ 1634  T" && ./client pull tomcat:latest &&  date +"%T"
+ 1635  go build -o client
+ 1636  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1637  go build -o client
+ 1638  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1639  go build -o client
+ 1640  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1641  go build -o client
+ 1642  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1643  go build -o client
+ 1644  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1645  go build -o client
+ 1646  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1647  go build -o client
+ 1648  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1649  go build -o client
+ 1650  clear
+ 1651  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1652  '
+ 1653  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1654  date +"%T" && ./client push tomcat:latest &&  date +"%T"
+ 1655  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1656  date +"%T" && docker pull  tomcat:latest &&  date +"%T"
+ 1657  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1658  docker pull python
+ 1659  cd /home/ashish/docket/client/opentracker/
+ 1660  ./opentracker -i 0.0.0.0 -p 8940 
+ 1661  ps -ef| grep opentracker
+ 1662  ./opentracker -i 0.0.0.0 -p 8940 
+ 1663  ps -ef| grep opentracker
+ 1664  ./opentracker -i 0.0.0.0 -p 8940 
+ 1665  cd /home/ashish/docket/registry/
+ 1666  cd ../client/
+ 1667  cd -
+ 1668  ./bt
+ 1669  cd /home/ashish/docket/registry/
+ 1670  export GOPATH=/home/ashish/docket/registry/
+ 1671  go build -o bt registry.go datastore.go
+ 1672  ll
+ 1673  go build -o bt registry.go datastore.go
+ 1674  ./bt 
+ 1675  go build -o bt registry.go datastore.go
+ 1676  ./bt 
+ 1677  cd /home/ashish/docket/client/opentracker/
+ 1678  ./opentracker -i 0.0.0.0 -p 8940 
+ 1679  bcompare
+ 1680  ./opentracker -i 127.0.0.1 -p 8940 
+ 1681  ./opentracker -i 0.0.0.0 -p 8940 
+ 1682  ps -ef| grep ctorrent
+ 1683  kill -9 ctorrent
+ 1684  ps -ef | grep ctorrent | kill -9 $1
+ 1685  ps -ef | grep ctorrent 
+ 1686  kill -9 ctorrent
+ 1687  pidof ctorrent
+ 1688  kill -9 9661 9621 9606 9593 9580 9567 9554 9541 9511 9497 9484 9471 9458 9072 9059 9046 9033 9007 8939 8926 8913 8900 8887 5922 5908 5893 5880 5867 5854 5828 5794 5781 5766 5753 5727
+ 1689  pidof ctorrent
+ 1690  ps -ef | grep ctorrent 
+ 1691  ./opentracker -i 0.0.0.0 -p 8940 
+ 1692  cd /tmp/docket/
+ 1693  ll
+ 1694  rm -rf *
+ 1695  cd /var/local/docket/
+ 1696  rm -rf *
+ 1697  bcompare
+ 1698  ll
+ 1699  cd -
+ 1700  ll
+ 1701  rm -rf *
+ 1702  docker rmi tomcat:latest
+ 1703  vi /var/lib/docker/image/overlay2/distribution/diffid-by-digest/sha256/
+ 1704  cd /var/lib/docker/image/overlay2/distribution/diffid-by-digest/sha256/
+ 1705  cd /var/lib/docker/image/
+ 1706  ll
+ 1707  cd aufs/
+ 1708  ll
+ 1709  cd ..
+ 1710  find . -name sha256:7d37b712f55cb729e799bd2716ae413ca19fb72ef9a431496bc2108bbd8b417d
+ 1711  find . -name *7d37b712f55cb729e799bd2716ae413ca19fb72ef9a431496bc2108bbd8b417d*
+ 1712  find . -name 0d9c080cd392b06768cdb6b083f0a0fa6879b08628d65c5059e4faf1f1ca98f9
+ 1713  find . -name e63291b2c704ccb7981d12f4f4d0f48e76f2fc2f8fa1b4831129898818ffdbbd
+ 1714  find . -name 697032caafd075aef2f5a05b3674be6630c87cc584c80d9235c7b06ef948ea59
+ 1715  rm ./aufs/distribution/v2metadata-by-diffid/sha256/697032caafd075aef2f5a05b3674be6630c87cc584c80d9235c7b06ef948ea59
+ 1716  cd aufs/distribution/v2metadata-by-diffid/
+ 1717  ll
+ 1718  cd sha256/
+ 1719  ll
+ 1720  cd /tmp/docket/
+ 1721  ll
+ 1722  rm -rf *
+ 1723  ll
+ 1724  rm -rf *
+ 1725  rm /var/lib/docker/image/aufs/layerdb/sha256/0f3a12fef684003e8dc0dfdcea32789db2179c6f9ad1e1e89bc05754ac44c6c5
+ 1726  rm -rf /var/lib/docker/image/aufs/layerdb/sha256/0f3a12fef684003e8dc0dfdcea32789db2179c6f9ad1e1e89bc05754ac44c6c5
+ 1727  cd /var/lib/docker/image/aufs/distribution/v2metadata-by-diffid/sha256/0f6f641d80caea49ffe2afe7947946c76453f4251fd9959d31bec9efb2378483
+ 1728  cd /var/lib/docker/image/aufs/distribution/v2metadata-by-diffid/sha256/54ced1567d96f60dd59eaf234effa7a6915b636ae32eec4d91d5d952602b1036
+ 1729  cd -
+ 1730  ll
+ 1731  rm -rf *
+ 1732  ll
+ 1733  cd -
+ 1734  ll
+ 1735  cd -
+ 1736  ll
+ 1737  cd ../../..
+ 1738  ll
+ 1739  find . -name 697032caafd075aef2f5a05b3674be6630c87cc584c80d9235c7b06ef948ea59
+ 1740  grep -ir "c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739" *
+ 1741  find . -name c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739
+ 1742  docker rmi tomcat:latest
+ 1743  docker pull tomcat:latest
+ 1744  find . -name c00455484c4210ae0a225026fe79e182fbfac032fb8b42caa68322e35f0e9739
+ 1745  find . -name b7fbf2bdecfea65575c8547f85dfb3b1a8b8438d19816942777bd7e9945cc191
+ 1746  cd -
+ 1747  ll
+ 1748  find . -name 0d9c080cd392b06768cdb6b083f0a0fa6879b08628d65c5059e4faf1f1ca98f9
+ 1749  cd /home/ashish/docket/client/
+ 1750  ps -ef|grep opentracker
+ 1751  ps -ef | ctorrent
+ 1752  ps -ef | grep ctorrent
+ 1753  cd /home/ashish/docket/client/
+ 1754  export GOPATH=/home/ashish/docket/client/
+ 1755  go build -o client client.go 
+ 1756  docker images
+ 1757  date +"%T" && ./client push tomcat:latest &&  date +"%T"
+ 1758  go build -o client client.go 
+ 1759  date +"%T" && ./client push tomcat:latest &&  date +"%T"
+ 1760  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1761  go build -o client client.go 
+ 1762  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1763  go build -o client client.go 
+ 1764  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1765  go build -o client client.go 
+ 1766  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1767  go build -o client client.go 
+ 1768  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1769  go build -o client client.go 
+ 1770  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1771  go build -o client client.go 
+ 1772  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1773  ll
+ 1774  go build -o client client.go 
+ 1775  date +"%T" && ./client pull tomcat:latest &&  date +"%T"
+ 1776  ./client pull tomcat:latest 
+ 1777  go build -o client client.go 
+ 1778  ./client pull tomcat:latest 
+ 1779  docker rmi tomcat:latest
+ 1780  ./client pull tomcat:latest 
+ 1781  docker rmi tomcat:latest
+ 1782  ./client pull tomcat:latest 
+ 1783  docker rmi tomcat:latest
+ 1784  go build -o client client.go 
+ 1785  ./client pull tomcat:latest 
+ 1786  go build -o client client.go 
+ 1787  ./client pull tomcat:latest 
+ 1788  go build -o client client.go 
+ 1789  ./client pull tomcat:latest 
+ 1790  go build -o client client.go 
+ 1791  ./client pull tomcat:latest 
+ 1792  go build -o client client.go 
+ 1793  ./client pull tomcat:latest 
+ 1794  docker rmi tomcat:latest
+ 1795  docker rmi
+ 1796  docker images
+ 1797  docker rmi tomcat
+ 1798  docker rmi da0729cd9201
+ 1799  ./client pull tomcat:latest 
+ 1800  docker rmi da0729cd9201
+ 1801  go build -o client client.go 
+ 1802  ./client pull tomcat:latest 
+ 1803  docker rmi da0729cd9201
+ 1804  docker rmi tomcat:latest
+ 1805  ./client pull tomcat:latest 
+ 1806  go build -o client client.go 
+ 1807  ./client pull tomcat:latest 
+ 1808  sudo find /var/lib/docker/image -name13a0dc78ce30a30aeb342b97f91be5178ba4824a45f3ea2c759f7cc1e5fd1eab
+ 1809  sudo find /var/lib/docker/image -name 13a0dc78ce30a30aeb342b97f91be5178ba4824a45f3ea2c759f7cc1e5fd1eab
+ 1810  vi /var/lib/docker/image/aufs/distribution/v2metadata-by-diffid/sha256/13a0dc78ce30a30aeb342b97f91be5178ba4824a45f3ea2c759f7cc1e5fd1eab
+ 1811  cd /var/lib/docker/image/aufs/distribution/v2metadata-by-diffid/sha256/13a0dc78ce30a30aeb342b97f91be5178ba4824a45f3ea2c759f7cc1e5fd1eab
+ 1812  ./client pull tomcat:latest 
+ 1813  go build -o client client.go 
+ 1814  ./client pull tomcat:latest 
+ 1815  docker images
+ 1816  go build -o client client.go 
+ 1817  ./client pull tomcat:latest 
+ 1818  go build -o client client.go 
+ 1819  ./client pull tomcat:latest 
+ 1820  go build -o client client.go 
+ 1821  ctorrent
+ 1822  ./client pull tomcat:latest 
+ 1823  ./client push tomcat:latest 
+ 1824  docker rmi
+ 1825  docker images
+ 1826  ./client push tomcat:latest 
+ 1827  cd /home/ashish/docket/registry
+ 1828  cd ../client/
+ 1829  ./client push tomcat:latest 
+ 1830  docker pull tomcat:latest
+ 1831  ./client push tomcat:latest 
+ 1832  clear
+ 1833  ./client pull tomcat:latest 
+ 1834  clear
+ 1835  ./client pull tomcat:latest 
+ 1836  ifconfig
+ 1837  ./client
+ 1838  ll
+ 1839  ./client
+ 1840  ./client -h "http://192.168.0.17" push tomcat:latest
+ 1841  ./client -h "http://192.168.0.17" push mysql:latest
+ 1842  sudo docker save tomcat:latest
+ 1843  ./client push java:latest
+ 1844  ./client pull java:latest
+ 1845  go build -o client client.go 
+ 1846  export GOPATH=/home/ashish/docket/client/
+ 1847  go build -o client client.go 
+ 1848  clear
+ 1849  ./client pull java:latest
+ 1850  cd /home/ashish/docket/registry/
+ 1851  pwd
+ 1852  ./bt
+ 1853  cd /var/lib/docker/image/overlay2/distribution/v2metadata-by-diffid/sha256/
+ 1854  ll
+ 1855  mv * /var/temp/
+ 1856  cd /home/ashish/docket/client
+ 1857  vi client.go 
+ 1858  ll
+ 1859  cd /home/ashish/
+ 1860  ll
+ 1861  rm -rf shubh/ .sudo_as_admin_successful .vnc/ .xsession-errors .xsession-errors.old 
+ 1862  rm -rf Taipei-Torrent/ .thunderbird/ .wine/ .gphoto/ .ies4linux/ 
+ 1863  ll
+ 1864  rm -rf ea861e9aec6e4d12d25f8c907623be23029599e2ebab16fe4d8b50d89880331c.tar ea861e9aec6e4d12d25f8c907623be23029599e2ebab16fe4d8b50d89880331c.tar.torrent dockertarsum/ docketBackup/ .docker/
+ 1865  ll
+ 1866  rm -rf .wget-hsts .Xauthority .local/ moby/ mobyClient/ .mozilla/ .pki/ .gconf/ .gnome .gnupg/ ifuse/
+ 1867  rm dmsetup_2%3a1.02.110-1ubuntu10_amd64.deb examples.desktop 
+ 1868  ll
+ 1869  rm 91abbaa3623e2132d38adc36563abcfce0838c05e8213ebd2ff37cca7bac4354.tar anuTemp/
+ 1870  rm cli/ clonedMoby/ .compiz/ .dbus/ docker.github.io/ FID.odp_0.odp  linux_signing_key.pub .mysql_history 
+ 1871  rm -rf cli/ clonedMoby/ .compiz/ .dbus/ docker.github.io/ FID.odp_0.odp  linux_signing_key.pub .mysql_history 
+ 1872  ll
+ 1873  rm -rf appointment.ods anuTemp/ .bash_history .bash_logout bin/ .dmrc b.pub estesp/ .gnome2/ lib/ .local/ 
+ 1874  rm -rf PlayOnLinux\'s\ virtual\ drives .PlayOnLinux/
+ 1875  rm .python_history 
+ 1876  rm -rf .remmina/ .rpmdb/ .ssh/
+ 1877  ll
+ 1878  rm -rf .cache/ .config/
+ 1879  rm -rf quayctl/
+ 1880  ll
+ 1881  cd /home/ashish/DOw
+ 1882  cd /home/ashish/Downloads/
+ 1883  ll
+ 1884  tar -xvzf xde-2.24.4.tar.gz 
+ 1885  cd xde-2.24.4/
+ 1886  ll
+ 1887  cd build/
+ 1888  ll
+ 1889  cd ../scripts/
+ 1890  ll
+ 1891  cd ..
+ 1892  vi README.md 
+ 1893  curl -L https://www.npmjs.com/install.sh | sh
+ 1894  cd ..
+ 1895  ll
+ 1896  tar -xvzf node-v8.11.3.tar.gz 
+ 1897  cd node-v8.11.3/
+ 1898  ll
+ 1899  ./configure 
+ 1900  make install
+ 1901  cd /home/ashish/Downloads/
+ 1902  ll
+ 1903  chmod a+x xde-2.24.4-x86_64.AppImage 
+ 1904  ./xde-2.24.4-x86_64.AppImage 
+ 1905  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 1906  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1907  mkdir /etc/yum.repos.d/vscode.repo
+ 1908  mkdir /etc/
+ 1909  mkdir /etc/yum.repos.d/
+ 1910  mkdir /etc/yum.repos.d/vscode.repo
+ 1911  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1912  rm -rf /etc/yum.repos.d/vscode.repo
+ 1913  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1914  dnf check-update
+ 1915  yum check-update
+ 1916  sudo yum install code
+ 1917  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1918  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 1919  sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+ 1920  yum check-update
+ 1921  ll
+ 1922  sudo dpkg -i code_1.24.1-1528912196_amd64.deb 
+ 1923  sudo apt-get install -f
+ 1924  visudo 
+ 1925  npm install -g react-native-cli
+ 1926  apt install npm
+ 1927  cd /root
+ 1928  ll
+ 1929  cd anu/
+ 1930  ll
+ 1931  vi App.js 
+ 1932  ll
+ 1933  chmod 777 App.js 
+ 1934  echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+ 1935  cd /home/ashish/Anukrati/
+ 1936  ll
+ 1937  cd anu/my-new-project/
+ 1938  ll
+ 1939  npm install
+ 1940  npm install -i
+ 1941  npm i npm@latest -g
+ 1942  npm audit
+ 1943  npm install -i
+ 1944  npm install
+ 1945  npm audit fix
+ 1946  npm install react-native-reanimated@1.0.0-alpha.4 
+ 1947  npm audit fix
+ 1948  npm install npm install react-native-reanimated@1.0.0-alpha.4 
+ 1949  npm install react@16.0.0-alpha.6
+ 1950  npm install react-native@^0.44.1
+ 1951  npm install
+ 1952  npm install -g exp && exp path
+ 1953  chmod 777 -R *
+ 1954  npm install
+ 1955  cd /home/ashish/Downloads/
+ 1956  ll
+ 1957  ./xde-2.24.4-x86_64.AppImage 
+ 1958  cd /home/ashish/Downloads/
+ 1959  ll
+ 1960  ./xde-2.24.4
+ 1961  ./xde-2.24.4-x86_64.AppImage 
+ 1962  cd /home/ashish/Downloads/
+ 1963  ll
+ 1964  ./xde-2.24.4-x86_64.AppImage 
+ 1965  cd /home/ashish/Downloads/
+ 1966  ll
+ 1967  ./xde-2.24.4-x86_64.AppImage 
+ 1968  EXIT
+ 1969  exit
+ 1970  cd /home/ashish/Anukrati/StudyForMasters/WebDesigning/
+ 1971  ll
+ 1972  cd codes/
+ 1973  ll
+ 1974  cd webmobileproject/
+ 1975  ll
+ 1976  rm -rf node_modules/
+ 1977  npm install
+ 1978  history
+ 1979  rm -rf /tmp/haste-map-metro-3-b2878bcdcce1028e83059aed28fed544 
+ 1980  rm -rf /tmp/haste
+ 1981  rm -rf /tmp/metro-cache-0d19fc5d63f980bc490f5615c6c5d9ef5e94a8a8/
+ 1982  rm -rf /tmp/metro-cache-4c19a446f208e080b253978e42c9d9c5f1849ce5/
+ 1983  rm -rf /tmp/
+ 1984  npm start --reset-cache
+ 1985  ll
+ 1986  rm -rf node_modules/
+ 1987  npm install
+ 1988  cd /home/ashish/Anukrati/StudyForMasters/WebDesigning/codes/webmobileproject/
+ 1989  history
+ 1990  history > a,txt 
